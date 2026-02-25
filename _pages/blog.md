@@ -4,18 +4,40 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 1
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 5
-  sort_field: date
-  sort_reverse: true
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3 # The number of links after the current page
 ---
 
+<div class="post">
+  <article>
+    <div class="news">
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+          {% comment %} Show ALL posts from site.posts {% endcomment %}
+          {% for post in site.posts %}
+            {% assign read_time = post.content | number_of_words | divided_by: 80 | plus: 1 %}
+            <tr>
+              <th scope="row" style="width: 120px;">{{ post.date | date: "%b %-d, %Y" }}</th>
+              <td>
+                <a class="news-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </td>
+              <!-- {% if post.tags %}
+              <td>
+                {% for tag in post.tags %}
+                  <a href="{{ '/blog/tag/' | append: tag | relative_url }}" class="tag-link">
+                    <i class="fas fa-hashtag fa-sm"></i> {{ tag }}
+                  </a>
+                  {% unless forloop.last %}&nbsp;{% endunless %}
+                {% endfor %}
+              </td>
+              {% endif %} -->
+            </tr>
+          {%- endfor %}
+        </table>
+      </div>
+    </div>
+  </article>
+</div>
+
+<!-- 
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
@@ -193,4 +215,4 @@ pagination:
 {% include pagination.liquid %}
 {% endif %}
 
-</div>
+</div> -->
