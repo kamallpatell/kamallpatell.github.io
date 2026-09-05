@@ -1,0 +1,12 @@
+github_users:
+  - kkratos
+
+repo_description_lines_max: 3
+
+github_repos:
+  - kkratos/Electricity-Price-Forecasting-Project
+  - kkratos/data-science-portfolio
+  - kkratos/machine-learning
+  - kkratos/US-Vehicle-Accidents-Pattern-Analysis
+  - kkratos/Loan-Default-Risk-Prediction
+  - kkratos/Predictive-Maintenance-of-Aircraft-Engine
