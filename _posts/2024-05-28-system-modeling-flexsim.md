@@ -28,7 +28,7 @@ The flow items then proceed to a queue and subsequently to a downstream processo
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/system/model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/flexsim/system/model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>    
      </div>
 </div>
@@ -51,7 +51,7 @@ After simulateing the model, I utilized various visual tools to showcase the out
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/system/content_time.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/flexsim/system/content_time.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -66,7 +66,7 @@ Below are some other graphs that I created to further analyze and visualize the 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/system/throughput.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/flexsim/system/throughput.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -79,7 +79,7 @@ In FlexSim, "State" represents the current condition of an entity, while "Stayti
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/system/state.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/flexsim/system/state.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -92,7 +92,7 @@ In FlexSim, "State" represents the current condition of an entity, while "Stayti
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/system/staytime.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/flexsim/system/staytime.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -107,7 +107,7 @@ Despite the model's simplicity, it provides a valuable learning opportunity by i
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/system/flexSim_gif.gif" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/flexsim/system/flexSim_gif.gif" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>

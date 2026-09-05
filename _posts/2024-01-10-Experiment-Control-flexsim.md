@@ -28,7 +28,7 @@ By employing these tools effectively, we can conduct experiments by modifying in
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
          <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/experiment/model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/flexsim/experiment/model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
          </div>
     </div>
 </div>
@@ -54,7 +54,7 @@ The Experimenter tool facilitates running multiple iterations of a model rapidly
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/flexsim/experiment/baseline.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/flexsim/experiment/baseline.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>
@@ -65,7 +65,7 @@ The Experimenter tool facilitates running multiple iterations of a model rapidly
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/flexsim/experiment/throughput.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/flexsim/experiment/throughput.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>
@@ -80,7 +80,7 @@ The Experimenter tool facilitates running multiple iterations of a model rapidly
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/flexsim/experiment/scenerio.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/flexsim/experiment/scenerio.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>
@@ -91,7 +91,7 @@ The Experimenter tool facilitates running multiple iterations of a model rapidly
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/flexsim/experiment/throughputmulti.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/flexsim/experiment/throughputmulti.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>
@@ -108,7 +108,7 @@ Note: The staytime of a processor is defined as the (time the item leaves the pr
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0 text-center">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/flexsim/experiment/total.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/flexsim/experiment/total.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>
@@ -121,7 +121,7 @@ Scenerio chart for max throughput with avg staytime of each queue in the model.
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/flexsim/experiment/scenerio_chart.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/flexsim/experiment/scenerio_chart.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>

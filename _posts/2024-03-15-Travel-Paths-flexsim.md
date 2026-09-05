@@ -32,7 +32,7 @@ As shown in the figure below, create a simple model with operator transporting a
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/astar/model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/flexsim/astar/model.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -49,7 +49,7 @@ To avoid all the barriers and objects, drag A\* tool from the navigation section
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/astar/navigator.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/flexsim/astar/navigator.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -62,7 +62,7 @@ Reset and Run the model. Now the operator avoids the objects and takes the short
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/astar/model_run.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/flexsim/astar/model_run.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -79,7 +79,7 @@ Drag divider from the A\* Star Navigation section and place it similar to the fi
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/flexsim/astar/astar_nodes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/flexsim/astar/astar_nodes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>

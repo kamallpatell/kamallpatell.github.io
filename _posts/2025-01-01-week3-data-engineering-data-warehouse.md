@@ -51,7 +51,7 @@ In summary, OLAP and OLTP serve different purposes in the data management landsc
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week3/difference.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/data/week3/difference.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -67,7 +67,7 @@ Partition is a huge advantage so that Big Query doesn’t need to run over the w
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week3/partition.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/data/week3/partition.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -80,7 +80,7 @@ Clustering tables means sort by clustered columns. In this way it can also impro
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week3/clustering.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/data/week3/clustering.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>

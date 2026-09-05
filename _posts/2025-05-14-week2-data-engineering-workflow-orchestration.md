@@ -30,7 +30,7 @@ A Data Lake stores a huge amount of data and are normally used for stream proces
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/datalake1.png" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="assets/img/blog/data/datalake1.png" class="img-fluid rounded z-depth-1" %}
         </div>
     </div>
 </div>
@@ -48,7 +48,7 @@ ETL is usually a Data Warehouse solution, used mainly for small amount of data a
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data/datalake2.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/blog/data/datalake2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -180,17 +180,17 @@ In our ingest_data.py, instead of hard coding all the input credentials(url, use
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data//week2/block1.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/blog/data//week2/block1.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data/week2/block2.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/blog/data/week2/block2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data/week2/block3.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/blog/data/week2/block3.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -250,7 +250,7 @@ prefect block register -m prefect_gcp
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data/week2/gcs1.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/blog/data/week2/gcs1.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -258,7 +258,7 @@ prefect block register -m prefect_gcp
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data/week2/gcs2.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/blog/data/week2/gcs2.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -360,7 +360,7 @@ prefect deployment build ./parameterized_flow.py:etl_parent_flow -n "Parameteriz
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data/week2/deploy3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/data/week2/deploy3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -369,7 +369,7 @@ As you can see from the output that prefect deployment build command generates a
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/deploy1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/deploy1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -377,7 +377,7 @@ As you can see from the output that prefect deployment build command generates a
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/deploy2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/deploy2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -387,7 +387,7 @@ Before deploying, we can edit some of the work queue in the YAML file to add mor
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/deploy4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/deploy4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -401,7 +401,7 @@ This action involves deploying the workflow described in the YAML file to the ta
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/deploy5.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/deploy5.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -411,7 +411,7 @@ If you navigate to the prefect UI, you can see that the deployment has been crea
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/deploy6.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/deploy6.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -445,7 +445,7 @@ Our Example
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/deploy7.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/deploy7.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -463,7 +463,7 @@ prefect agent start --work-queue "default"
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/docker1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/docker1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -473,7 +473,7 @@ prefect agent start --work-queue "default"
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/docker2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/docker2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -485,7 +485,7 @@ prefect agent start --work-queue "default"
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/docker3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/docker3.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -517,7 +517,7 @@ python docker_deploy.py
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/blog/data/week2/docker4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="assets/img/blog/data/week2/docker4.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -526,7 +526,7 @@ python docker_deploy.py
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/data/week2/docker5.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.liquid path="assets/img/blog/data/week2/docker5.png" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>

@@ -23,7 +23,7 @@ Tensors are the fundamentals data structures used in machine learning, in contex
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0 text-center">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/ml/pytorch/tensor.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/ml/pytorch/tensor.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>
@@ -120,7 +120,7 @@ plt.show()
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0 text-center">
       <div style="max-width: 600px; margin: 0 auto;">
-         {% include figure.liquid path="assets/blog/ml/pytorch/linear.png" class="img-fluid rounded z-depth-1" %}
+         {% include figure.liquid path="assets/img/blog/ml/pytorch/linear.png" class="img-fluid rounded z-depth-1" %}
       </div>
    </div>
 </div>
@@ -231,7 +231,7 @@ plt.show()
 <div class="row mt-3">
    <div class="col-sm mt-3 mt-md-0 text-center">
       <div style="max-width: 600px; margin: 0 auto;">
-            {% include figure.liquid path="assets/blog/ml/pytorch/model_fit.png" class="img-fluid rounded z-depth-1" %}      
+            {% include figure.liquid path="assets/img/blog/ml/pytorch/model_fit.png" class="img-fluid rounded z-depth-1" %}      
       </div>
    </div>
 </div>
