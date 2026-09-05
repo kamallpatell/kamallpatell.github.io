@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Pattern Analysis of 9 years of US Vehicle Accidents 
+title: Pattern Analysis of 9 years of US Vehicle Accidents
 date: 2022-12-15
 project_title: US Vehicle Accidents Analysis in R
 description: vehicle accidents from 2016-2023
 list_description: Pattern analysis of 9 years of US vehicle accident data (2.8M records) investigating environmental factors impact on traffic behavior. Conducted extensive EDA using R and ggplot2, performed text mining on accident descriptions, and developed interactive visualizations in Tableau. Built a Streamlit web app for data exploration, identifying key patterns including rush hour peaks, fair weather accidents, and high-risk locations to propose data-driven road safety policies
 img: assets/projects/accidents.png
-importance: 
+importance:
 category: course-projects
 github: https://github.com/kkratos/US-Vehicle-Accidents-Pattern-Analysis
 giscus_comments: false

@@ -60,8 +60,7 @@
               {% endif %}
             </a>
           </li>
-          
-          
+
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
@@ -138,7 +137,7 @@
           {% if site.enable_darkmode %}
             <!-- resume -->
             <li class="nav-item {% if page.title == 'CV' %}active{% endif %}">
-                <a class="nav-link" target="_blank" href="{{ '/assets/pdf/resume.pdf' | relative_url }}">resume</a>
+              <a class="nav-link" target="_blank" href="{{ '/assets/pdf/resume.pdf' | relative_url }}">resume</a>
             </li>
 
             <!-- Toogle theme mode -->

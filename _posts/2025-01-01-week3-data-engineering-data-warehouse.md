@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Data Engineering Week 3 - Data Warehouse 
+title: Data Engineering Week 3 - Data Warehouse
 date: 2025-01-01 12:00:00-0400
-description:  Data Warehouse and BigQuery
+description: Data Warehouse and BigQuery
 tags: data-engineering
 categories: data
 giscus_comments: false
@@ -28,7 +28,6 @@ Capabilities: Enables users to explore data from different perspectives, perform
 Volume of Data: OLAP has large storage requirements. Think terabytes (TB) and petabytes (PB).
 
 Example Applications: OLAP is good for analyzing trends, predicting customer behavior, and identifying profitability.
-
 
 `OLTP (Online Transaction Processing)`:
 
@@ -58,7 +57,6 @@ In summary, OLAP and OLTP serve different purposes in the data management landsc
 <div class="caption">
    OLAP vs OLTP
 </div>
-
 
 ### **Partitioning and Clustering in BigQuery**
 
@@ -107,13 +105,14 @@ SELECT * FROM `dez-de-404011.dezoomcamp.external_yellow_tripdata`;
 
 Cost reduction
 
-- Avoid SELECT *
+- Avoid SELECT \*
 - Price your queries before running them
 - Use clustered or partitioned tables
 - Use streaming inserts with caution
 - Materialize query results in stages
 
 Query performance
+
 - Filter on partitioned columns
 - Denormalizing data
 - Use nested or repeated columns

@@ -73,7 +73,7 @@ The Experimenter tool facilitates running multiple iterations of a model rapidly
    Total Throughput
 </div>
 
-   The throughput figure above illustrates the performance of the system, showing that the throughput varies between a maximum of 44 and a minimum of 33. The median throughput value is 39, indicating the central tendency of the data. The calculated 95% confidence interval for the mean throughput is 37.8 to 40.2, giving us a range of values where we can reasonably expect the true mean to fall.
+The throughput figure above illustrates the performance of the system, showing that the throughput varies between a maximum of 44 and a minimum of 33. The median throughput value is 39, indicating the central tendency of the data. The calculated 95% confidence interval for the mean throughput is 37.8 to 40.2, giving us a range of values where we can reasonably expect the true mean to fall.
 
 7. Define additional Scenarios to evaluate the impact of Model Parameters. Its a good Practice to give scenarios meaningful names for better understanding. Rerun Experiments to see effects of Additional scenarios.
 

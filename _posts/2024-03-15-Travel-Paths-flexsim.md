@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Travel Paths Using A* In FlexSim" 
+title: "Travel Paths Using A* In FlexSim"
 date: 2024-03-15 12:00:00-0400
 description: A-Star Algorithm
 tags: flexsim

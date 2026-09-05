@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Engineering Week 1 - Docker and Postgresql 
+title: Data Engineering Week 1 - Docker and Postgresql
 date: 2025-03-07 12:00:00-0400
 description: Introduction to data engineering by Alexey Grigorev
 tags: data-engineering

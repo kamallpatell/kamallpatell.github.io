@@ -37,7 +37,7 @@ nav_order: 1
   </article>
 </div>
 
-<!-- 
+<!--
 <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}

@@ -6,7 +6,7 @@ project_title: Network Control Robots
 description: simulate the control of 6 wheeled robots in PyBullet physics simulator.
 list_desciption: Simulated the control of 6 wheeled robots in PyBullet physics simulator.
 img: assets/projects/swarm/swarm.png
-importance: 
+importance:
 category:
 giscus_comments: false
 show_in_list: false
@@ -58,7 +58,7 @@ $$
 
 ## Code
 
-The python code for the project is on my [Github](https://github.com/kkratos/Network-Controlled-Robotics-ME7974){:target="_blank"} repository.
+The python code for the project is on my [Github](https://github.com/kkratos/Network-Controlled-Robotics-ME7974){:target="\_blank"} repository.
 
 ## Result
 
