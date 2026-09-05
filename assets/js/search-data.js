@@ -23,18 +23,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-linear-programming-in-r-lpsolve",
-        
-          title: "Linear Programming in R(LpSolve)",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/lpSolve-R/";
-          
-        },
-      },{id: "post-data-engineering-week-2-workflow-orchestration",
+        },{id: "post-data-engineering-week-2-workflow-orchestration",
         
           title: "Data Engineering Week 2 - Workflow Orchestration",
         
