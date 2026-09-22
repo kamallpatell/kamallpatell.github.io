@@ -18,11 +18,9 @@ nav_order: 3
         <!-- Image on Left -->
         {% if project.img %}
         <div class="me-4 flex-shrink-0 image-container" style="margin-right: 1rem !important;">
-          <a href="{{ project.url | relative_url }}">
             <img src="{{ project.img | relative_url }}" 
                  alt="{{ project.title }}" 
                  class="project-image rounded">
-          </a>
         </div>
         <style>
         .image-container {
@@ -44,9 +42,7 @@ nav_order: 3
         <div class="flex-grow-1" style="margin-left: 1rem;">
           <!-- Title as Link -->
           <h5 class="mb-1">
-            <a href="{{ project.url | relative_url }}" class="text-decoration-none text-dark">
               <span class="fw-bold">{{ project.title }}</span>
-            </a>
           </h5>
           <!-- Description -->
           {% if project.list_description %}
