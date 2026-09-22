@@ -25,10 +25,10 @@ Data cleaning is a vital step in an analysis process because accuracy of the ana
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/na1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/na1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/na2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/na2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -46,7 +46,7 @@ Data cleaning is a vital step in an analysis process because accuracy of the ana
         </ul>
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/weather_na.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/weather_na.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -59,10 +59,10 @@ Before we decide, there is one interesting thing: when weather related values is
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/feature1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/feature1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/feature2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/feature2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -73,10 +73,10 @@ Before we decide, there is one interesting thing: when weather related values is
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/cal1.png" title="top 10" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="/assets/projects/pattern/cal1.png" title="top 10" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/cal2.png" title="usa" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/cal2.png" title="usa" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -91,10 +91,10 @@ After cleaning the data we found that California had the most data points(~ 770K
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A1.png" title="Traffic" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="/assets/projects/pattern/A1.png" title="Traffic" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A2.png" title="Signal" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/A2.png" title="Signal" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -107,7 +107,7 @@ Most accidents occur when no traffic signal or crossing was present which is the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A3.png" title="By Weather" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/A3.png" title="By Weather" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -120,7 +120,7 @@ Most accidents occur in fair weather, not bad weather conditions.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A4.png" title="By Light" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/A4.png" title="By Light" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -133,10 +133,10 @@ We would assume most of the accidents to happen at night due to poor street ligh
 
 <div class="row">
      <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A5.png" title="By Hour" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="/assets/projects/pattern/A5.png" title="By Hour" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A6.png" title="Severity by Hour" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/A6.png" title="Severity by Hour" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -148,10 +148,10 @@ We would assume most of the accidents to happen at night due to poor street ligh
 
 <div class="row">
      <div class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A7.png" title="Total by Year" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="/assets/projects/pattern/A7.png" title="Total by Year" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm-10 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A8.png" title="By Year" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/pattern/A8.png" title="By Year" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -164,7 +164,7 @@ The data shows trends in accidents over these years, with a remarkable surge in 
 
 <div class="row">
      <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A9.png" title="By Month" class="img-fluid rounded z-depth-1"%}
+        {% include figure.liquid path="/assets/projects/pattern/A9.png" title="By Month" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
@@ -179,10 +179,10 @@ Text Mining analysis on Description attribute to transform unstructured data in 
 
 <div class="row">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A10.png" title="word cloud" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/A10.png" title="word cloud" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/pattern/A11.png" title="freq" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/pattern/A11.png" title="freq" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

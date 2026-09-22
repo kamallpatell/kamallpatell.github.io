@@ -29,7 +29,7 @@ The goal is to simulate the control of 6 wheeled robots in PyBullet (a physics s
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/project/swarm/target.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/swarm/target.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -66,7 +66,7 @@ In the project, I effectively utilized the pybullet physics engine to simulate a
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/project/swarm/square.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="/assets/projects/swarm/square.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -16,10 +16,10 @@ show_in_list: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/jet_engine.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/jet_engine.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/jet_engine_case.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/jet_engine_case.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -28,10 +28,10 @@ show_in_list: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/jet_front.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/jet_front.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/jet_rear.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/jet_rear.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -42,10 +42,10 @@ show_in_list: false
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/suspension1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/suspension1.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/suspension2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/suspension2.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -56,13 +56,13 @@ show_in_list: false
 
 <div class="row mt-3">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/crankshaft.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/crankshaft.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/exhaust.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/exhaust.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/projects/cad/scissorlift.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid path="/assets/projects/cad/scissorlift.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
