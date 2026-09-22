@@ -49,8 +49,8 @@ ninja.data = [{
           description: "vehicle accidents from 2016-2023",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2022-12-15-US-Vehicle/";
-            },},{id: "projects-tableau-data-visualization",
-          title: 'Tableau Data Visualization',
+            },},{id: "projects-sales-customer-segmentation",
+          title: 'Sales Customer Segmentation',
           description: "dashboard visualization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2023-05-10-Tableau/";
