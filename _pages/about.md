@@ -8,7 +8,7 @@ profile:
   align: right
   image: profile_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: 
+  more_info:
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -30,20 +30,33 @@ Hello and welcome! I'm an industrial/mechanical engineer, interested in applying
 
 `Education`
 
-I'm currently a PhD student in `Industrial and Systems Engineering` at Rutgers University.
+Completed two year's of PhD courses in `Industrial and Systems Engineering` at Rutgers University.
 
-`Teaching Assistant`
+`Graduate Teaching Assistant`
+_Department of Industrial & Systems Engineering_
 
-• <strong class="fw-bold">Spring 2026</strong>: TA for undergraduate MATLAB programming course. Currently teaching students fundamentals for programming for engineering applications.
+• <strong class="fw-bold">Spring 2026</strong> | MATLAB Programming
 
-• <strong class="fw-bold">Fall 2025</strong>: TA for undergraduate Introduction to Data-Driven Design Engineering course. Taught students the fundamental of CAD modeling using OnShape, helped with projects and grading.  
+- Conducted interactive weekly recitations, teaching fundamentals and algorithm design in MATLAB.
+- Evaluated and graded homework assignments, exams and supervised course term projects.
 
-• <strong class="fw-bold">ISE 540:492</strong> - Spring 2025 TA for undergraduate course on Reliability Engineering(Instructor: Prof. Elsayed). Assisted undergraduate students in understanding core concepts such reliabiliy, failure analysis and probability models. Helped with assignments and graded coursework.
+• <strong class="fw-bold">Fall 2025</strong> | Data-Driven Design Engineering (Parametric Modeling)
 
-• <strong class="fw-bold">ISE 540:501</strong> - Spring 2025 TA for graduate course on Applied Optimization course (Instructor: Prof. David Coit). Helped students with linear programming and optimization concepts, evaluated course assignments and projects.
+- Delivered sessions on parametric modeling, surface/solid geometry, and complex multi-part assembly.
+- Mentored student teams on design projects, conducted office hours, and evaluated course deliverables.
+
+• <strong class="fw-bold">ISE 540:492 (Spring 2025)</strong> | Reliability Engineering _(Instructor: Prof. Elsayed)_
+
+- Guided students through foundational reliability concepts, failure analysis, and probability models.
+- Held recitation sessions, assisted with coursework, and managed grading.
+
+• <strong class="fw-bold">ISE 540:501 (Spring 2025)</strong> | Applied Optimization _(Graduate Level | Instructor: Prof. David Coit)_
+
+- Supported graduate students in linear programming, mathematical modeling, and optimization techniques.
+- Evaluated complex optimization assignments and final course projects.
 
 `Technical Skills:`
 
-• <strong class="fw-bold">Programming Languages:</strong> Python(NumPy, Pandas, Scikit-learn), R, MATLAB, C/C++, Javascript \
-• <strong class="fw-bold">Software Packages:</strong> ANSYS, SolidWorks, CATIA V5, AutoCAD, Siemens NX, PTC Creo, Flexsim, Minitab, MS Project, Viso. \
-• <strong class="fw-bold">ML Packages/Tools:</strong> PyTorch, Tensorflow, Scikit, Dockers, PostgreSQL, Linux, VS Code, Git.
+• <strong class="fw-bold">Programming Languages:</strong> Python(NumPy, Pandas, Scikit-learn), R, MATLAB, C/C++ \
+• <strong class="fw-bold">Software Packages:</strong> Flexsim, GurobiPy, Anylogic, Minitab, MS Project, Viso \
+• <strong class="fw-bold">ML Packages/Tools:</strong> MySQL, PostgreSQL, Linux, VS Code, PyTorch, Dockers, Git

@@ -1,12 +1,12 @@
 github_users:
-  - kkratos
+  - kamalpatelll
 
 repo_description_lines_max: 3
 
 github_repos:
-  - kkratos/Electricity-Price-Forecasting-Project
-  - kkratos/data-science-portfolio
-  - kkratos/machine-learning
-  - kkratos/US-Vehicle-Accidents-Pattern-Analysis
-  - kkratos/Loan-Default-Risk-Prediction
-  - kkratos/Predictive-Maintenance-of-Aircraft-Engine
+  - kamalpatelll/Electricity-Price-Forecasting-Project
+  - kamalpatelll/data-science-portfolio
+  - kamalpatelll/machine-learning
+  - kamalpatelll/US-Vehicle-Accidents-Pattern-Analysis
+  - kamalpatelll/Loan-Default-Risk-Prediction
+  - kamalpatelll/Predictive-Maintenance-of-Aircraft-Engine

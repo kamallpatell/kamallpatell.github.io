@@ -3,8 +3,9 @@ layout: page
 title: Power Consumption Analysis and Prediction
 date: 2024-04-20
 project_title: Building Energy Consumption Analysis
-description: visualization and analysis of shopping mall building energy data.
-list_description: Capstone project for data analytics course applying learned methodologies to energy consumption analysis. Practiced end-to-end analytics workflow- data wrangling, exploratory analysis, visualization, and predictive modeling. Key deliverables included clustering analysis of daily load patterns, regression modeling, and feature importance analysis for thermal comfort. The project demonstrated application of course concepts including data preprocessing, statistical analysis, machine learning implementation, and result interpretation in a practical domain.
+description: Visualization and analysis of shopping mall building energy data.
+excerpt_separator: "---"
+list_description: Capstone project for data analytics course applying learned methodologies to energy consumption analysis. Practiced end-to-end analytics workflow - data wrangling, exploratory analysis, visualization, and predictive modeling. Key deliverables included clustering analysis of daily load patterns, regression modeling, and feature importance analysis for thermal comfort. The project demonstrated application of course concepts including data preprocessing, statistical analysis, machine learning implementation, and result interpretation in a practical domain.
 img: assets/projects/electricity.png
 importance:
 github: https://github.com/kkratos/Building-Energy-Analysis
@@ -17,9 +18,10 @@ tech: python
 {% assign jupyter_path = "assets/jupyter/building.ipynb" | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/building.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
-    {% jupyter_notebook jupyter_path %}
+{% jupyter_notebook jupyter_path %}
 {% else %}
-    <p>Sorry, the notebook you are looking for does not exist.</p>
+
+<p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
 

@@ -54,12 +54,17 @@ nav_order: 3
           {% endif %}
           <!-- Links -->
           <div>
+            {% unless project.show_details == false %}
             <a href="{{ project.url | relative_url }}" class="text-decoration-none small me-3">
               View details
             </a>
+            {% endunless %}
             {% if project.github %}
             <a href="{{ project.github }}" class="text-decoration-none small" target="_blank">
-              <i class="bi bi-github me-1"></i> &middot; GitHub
+              {% unless project.show_details == false %}
+                &middot; 
+              {% endunless %}
+              <i class="bi bi-github me-1"></i> GitHub
             </a>
             {% endif %}
           </div>
