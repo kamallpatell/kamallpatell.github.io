@@ -1,0 +1,66 @@
+{% for social in site.data.socials %}
+  {% assign social_key = social[0] %}
+  {% assign social_val = social[1] %}
+
+  {% case social_key %}
+    {% when 'github_username' %}
+      <a href="https://github.com/{{ social_val }}" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-github"></i></a>
+
+    {% when 'linkedin_username' %}
+      <a href="https://www.linkedin.com/in/{{ social_val }}" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-linkedin"></i></a>
+
+    {% when 'email' %}
+      <a href="mailto:{{ social_val }}" title="email"><i class="ti ti-mail"></i></a>
+
+    {% when 'x_username' %}
+      <a href="https://x.com/{{ social_val }}" title="X" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-x"></i></a>
+
+    {% when 'scholar_userid' %}
+      <a href="https://scholar.google.com/citations?user={{ social_val }}" title="Google Scholar" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a>
+
+    {% when 'orcid_id' %}
+      <a href="https://orcid.org/{{ social_val }}" title="ORCID" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i></a>
+
+    {% when 'research_gate_profile' %}
+      <a href="https://www.researchgate.net/profile/{{ social_val }}/" title="ResearchGate" target="_blank" rel="noopener noreferrer"><i class="ai ai-researchgate"></i></a>
+
+    {% when 'publons_id' %}
+      <a href="https://publons.com/a/{{ social_val }}/" title="Publons" target="_blank" rel="noopener noreferrer"><i class="ai ai-publons"></i></a>
+
+    {% when 'arxiv_id' %}
+      <a href="https://arxiv.org/a/{{ social_val }}.html" title="arXiv" target="_blank" rel="noopener noreferrer"><i class="ai ai-arxiv"></i></a>
+
+    {% when 'dblp_url' %}
+      <a href="{{ social_val }}" title="DBLP" target="_blank" rel="noopener noreferrer"><i class="ai ai-dblp"></i></a>
+
+    {% when 'kaggle_id' %}
+      <a href="https://www.kaggle.com/{{ social_val }}" title="Kaggle" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-kaggle"></i></a>
+
+    {% when 'medium_username' %}
+      <a href="https://medium.com/@{{ social_val }}" title="Medium" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-medium"></i></a>
+
+    {% when 'quora_username' %}
+      <a href="https://www.quora.com/profile/{{ social_val }}" title="Quora" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-quora"></i></a>
+
+    {% when 'youtube_id' %}
+      <a href="https://www.youtube.com/@{{ social_val }}" title="YouTube" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-youtube"></i></a>
+
+    {% when 'discord_id' %}
+      <a href="https://discord.com/users/{{ social_val }}" title="Discord" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-discord"></i></a>
+
+    {% when 'instagram_id' %}
+      <a href="https://instagram.com/{{ social_val }}" title="Instagram" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-instagram"></i></a>
+
+    {% when 'facebook_id' %}
+      <a href="https://facebook.com/{{ social_val }}" title="Facebook" target="_blank" rel="noopener noreferrer"><i class="ti ti-brand-facebook"></i></a>
+
+    {% when 'custom_social' %}
+      <a href="{{ social_val.url }}" title="{{ social_val.title }}" target="_blank" rel="noopener noreferrer">
+        {% if social_val.logo contains '://' %}
+          <img src="{{ social_val.logo }}" alt="{{ social_val.title }}">
+        {% else %}
+          <img src="{{ social_val.logo | relative_url }}" alt="{{ social_val.title }}">
+        {% endif %}
+      </a>
+  {% endcase %}
+{% endfor %}
