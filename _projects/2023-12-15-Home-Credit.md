@@ -8,7 +8,7 @@ list_description: This course project, developed for the Data Mining II course i
 img: assets/projects/Home_Credit.png
 importance:
 category: course-projects
-github: https://github.com/kkratos/Loan-Default-Risk-Prediction
+github: https://github.com/kamalpatelll/Loan-Default-Risk-Prediction
 giscus_comments: false
 tech: python, XGBoost, LightGBM
 ---

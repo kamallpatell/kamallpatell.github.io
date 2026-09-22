@@ -8,12 +8,12 @@ list_description: Pattern analysis of 9 years of US vehicle accident data (2.8M 
 img: assets/projects/accidents.png
 importance:
 category: course-projects
-github: https://github.com/kkratos/US-Vehicle-Accidents-Pattern-Analysis
+github: https://github.com/kamalpatelll/US-Vehicle-Accidents-Pattern-Analysis
 giscus_comments: false
 tech: R, Tableau, Streamlit
 ---
 
-[github repository](https://github.com/kkratos/540-Data-Analytics-in-R/blob/main/Project/Final.R){:target="\_blank"}
+[github repository](https://github.com/kamalpatelll/540-Data-Analytics-in-R/blob/main/Project/Final.R){:target="\_blank"}
 
 **Objective**
 

@@ -8,7 +8,7 @@ excerpt_separator: "---"
 list_description: Capstone project for data analytics course applying learned methodologies to energy consumption analysis. Practiced end-to-end analytics workflow - data wrangling, exploratory analysis, visualization, and predictive modeling. Key deliverables included clustering analysis of daily load patterns, regression modeling, and feature importance analysis for thermal comfort. The project demonstrated application of course concepts including data preprocessing, statistical analysis, machine learning implementation, and result interpretation in a practical domain.
 img: assets/projects/electricity.png
 importance:
-github: https://github.com/kkratos/Building-Energy-Analysis
+github: https://github.com/kamalpatelll/Building-Energy-Analysis
 category: course-projects
 giscus_comments: false
 tech: python

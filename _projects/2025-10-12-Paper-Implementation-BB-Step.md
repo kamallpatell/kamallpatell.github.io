@@ -7,7 +7,7 @@ description: Forecasting Analytics Course Project
 list_description: Implemented research paper - Barzilai-Borwein Step Size for Stochastic Gradient Descent algorithm as part of computational methods course.
 importance:
 img: assets/projects/BB.png
-github: https://github.com/kkratos/Paper-Implementation-Barzilai-Borwein-Step-Size-for-Stochastic-Gradient-Descent
+github: https://github.com/kamalpatelll/Paper-Implementation-Barzilai-Borwein-Step-Size-for-Stochastic-Gradient-Descent
 category: course-projects
 giscus_comments: false
 tech: python
